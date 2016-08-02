@@ -1,0 +1,8 @@
+[Unit]
+Description=Auto pacman upgrade service
+
+[Timer]
+OnCalendar=*-*-* 10:00:00
+
+[Install]
+WantedBy=timers.target

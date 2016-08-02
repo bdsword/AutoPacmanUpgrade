@@ -1,0 +1,7 @@
+[Unit]
+Description=Auto pacman upgrade service
+
+[Service]
+ExecStart=/home/bdsword/Documents/Scripts/AutoPacmanUpgrade/upgrade.sh
+Type=forking
+
